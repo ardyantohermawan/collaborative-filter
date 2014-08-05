@@ -1,0 +1,16 @@
+{
+  "name": "express-learning",
+  "description": "Express test app",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Ardyanto Hermawan",
+  "main": "./server.js",
+  "dependencies": {
+    "express": "4.x",
+    "body-parser": "1.5.x",
+    "method-override": "2.1.x",
+    "morgan": "~1.0.0",
+    "jade": "~1.5.0",
+    "mongoose": "~3.8.14"
+  }
+}
