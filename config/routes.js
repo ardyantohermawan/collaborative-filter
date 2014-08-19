@@ -1,10 +1,10 @@
 module.exports = function (app) {
-  var homeRoutes = App.route('homeRoutes');
-  app.get('/', homeRoutes.home);
+  var homeController = App.route('homeController');
+  app.get('/', homeController.home);
 
-  var aboutRoutes = App.route('aboutRoutes');
-  app.get('/about', aboutRoutes.about);
+  var aboutController = App.route('aboutController');
+  app.get('/about', aboutController.about);
 
-  var contactRoutes = App.route('contactRoutes');
-  app.get('/contact', contactRoutes.contact);
+  var contactController = App.route('contactController');
+  app.get('/contact', contactController.contact);
 }
